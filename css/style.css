@@ -1,0 +1,625 @@
+@font-face{font-family: NeoSansProLight; src: url(/font/NeoSansProLight.woff);}
+@font-face{font-family: NeoSansProRegular; src: url(/font/NeoSansProRegular.woff);}
+@font-face{font-family: NeoSansProMedium; src: url(/font/NeoSansProMedium.woff);}
+@font-face{font-family: NeoSansProUltra; src: url(/font/NeoSansProUltra.woff);}
+@font-face{font-family: NeoSansProBold; src: url(/font/NeoSansProBold.woff);}
+@font-face{font-family: NeoSansProBlack; src: url(/font/NeoSansProBlack.woff);}
+@font-face{font-family: NeoSansProItalic; src: url(/font/NeoSansProItalic.woff);}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: NeoSansProRegular;
+    color: #4D4D4F;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/globalImage.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+    background-position: center calc(100% - 15px);
+}
+
+.headerFlex{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 160px;
+}
+
+#logo{
+    position: relative;
+    top: 15px;
+    left: 160px;
+}
+
+#logo02{
+    display: none;
+}
+
+ul{
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+ul a{
+    text-decoration: none;
+    color: #4D4D4F;
+}
+
+ul a:hover{
+    color: #013E84;
+}
+
+.importSection{
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sobreSection , #servicosSection{
+    margin-top: 86px;
+}
+
+.sectionsH2Parag p{
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sectionsH2Parag h2{
+    font-family: NeoSansProMedium;
+    font-size: 40px;
+    font-weight: 400;
+    background-image: linear-gradient(#002652 , #0056B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+#sobreSection h2, #servicosSection h2{
+    text-align: center;
+}
+
+.sobrePrimeiroP{
+    max-width: 900px;
+}
+
+.sobreSegundoP{
+    max-width: 870px;
+ }
+
+.servicosPrimeiroP{
+    max-width: 850px;
+}
+.servicosSegundoP{
+    max-width: 870px;
+}
+
+.sobreServicosMarginAuto{
+    margin: auto;
+}
+
+.importSection{
+    margin-top: 40px;
+}
+
+.importCimaContainer{
+    font-size: 30px;
+    margin: auto;
+}
+
+.importCimaContainer p{
+    text-align: center;
+    font-family: NeoSansProMedium;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.importCimaDivP{
+    margin: auto;
+    max-width: 200px;
+}
+
+.importBaixoContainer{
+    text-align: center;
+}
+
+.importBaixoContainer p{
+    font-family: NeoSansProLight;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.importBaixoDivP{
+    margin: 20px auto 0px;
+    width: 80%;
+}
+
+.importImages{
+    margin-top: 30px;
+}
+
+.gradienteDiv{
+    width: 265px;
+    height: 405px;
+    border-radius: 17px;
+    background-image: linear-gradient(130deg, #002652 30%, #0056B7 80%);
+}
+
+.linhaBrancaDiv{
+    width: 100%;
+    height: 3px;
+    background-color: #FFFFFF;
+}
+
+#atuacaoSection{
+    margin-top: 90px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.atuacaoDiv{
+    position: relative;
+    top: 140px;
+    left: 100px;
+    margin: auto 0px;
+    text-align: left;
+    width: 343px;
+}
+
+.atuacaoDiv p{
+    margin-left: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.brasilImageDiv{
+    position: relative;
+    right: 100px;
+    text-align: center;
+}
+
+#contatoSection{
+    margin-top: 70px;
+    background-image: linear-gradient(to left, #002652 30%, #0056B7 80%);
+}
+
+#contatoSection p, h1{
+    font-weight: 100;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.contatoH1P p{
+    text-align: center;
+    font-size: 24px;
+}
+
+.contatoH1P h1{
+    text-align: center;
+    font-size: 52px;
+}
+
+
+#contatoContainer{
+    max-width: 800px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.horizontalLine{
+    width: 1px;
+    height: 90px;
+    margin-bottom: 5px;
+    background-color: #FFFFFF;
+}
+
+.contatoEmailFone p{
+    font-size: 29.2px;
+}
+
+@media screen and (max-width: 1059px){
+
+    .brasilImageDiv{
+        right: 100px;
+    }
+
+    .brasilImg{
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    ul{
+        font-size: 20px;
+    }
+
+    #logo{
+        width: 30px;
+        top: 10px;
+        left: 60px;
+    }
+
+    .sobrePrimeiroP , .sobreSegundoP{
+        max-width: 840px;
+    }
+
+    .servicosPrimeiroP , .servicosSegundoP{
+        max-width: 800px;
+    }
+
+    .atuacaoDiv{
+        width: 310px;
+    }
+    
+    .sectionsH2Parag h2{
+        font-size: 35px;
+    }
+
+    .sectionsH2Parag p{
+        font-size: 18px;
+    }
+
+    #contatoContainer{
+        width: 720px;
+    }
+
+    .contatoH1P p{
+        font-size: 21px;
+    }
+    
+    .contatoH1P h1{
+        font-size: 45px;
+    }
+
+    .contatoEmailFone p{
+        font-size: 27.2px;
+    }
+
+    .horizontalLine{
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 973px){
+
+    .brasilImageDiv{
+        right: 50px;
+    }
+
+    .brasilImg{
+        width: 530px;
+    }
+}
+
+@media screen and (max-width: 860px){
+
+    .sobrePrimeiroP , .sobreSegundoP, .servicosPrimeiroP, .servicosSegundoP{
+        max-width: 640px;
+    }
+
+    .gradienteDiv{
+        width: 190px;
+        height: 310px;
+    }
+
+    .importSection{
+        max-width: 660px;
+    }
+
+    .sectionsH2Parag h2{
+        font-size: 25px;
+    }
+
+    .sectionsH2Parag p{
+        font-size: 14px;
+    }
+
+    #contatoContainer{
+        width: 720px;
+    }
+
+    .contatoH1P p{
+        font-size: 21px;
+    }
+    
+    .contatoH1P h1{
+        font-size: 45px;
+    }
+
+    .contatoEmailFone p{
+        font-size: 27.2px;
+    }
+
+    .horizontalLine{
+        height: 70px;
+    }
+
+    .atuacaoDiv{
+        top: 100px;
+        width: 250px;
+    }
+
+    #atuacaoSection ,#contatoSection, #sobreSection , #servicosSection{
+        margin-top: 40px;
+    }
+    
+    .importCimaContainer{
+        width: 150px;
+    }
+
+    .importCimaContainer p{
+        font-size: 16px;
+    }
+
+    .importBaixoContainer p{
+        font-size: 14px;
+    }
+
+    .brasilImg{
+        width: 430px;
+    }
+
+    .importImages{
+        width: 130px;
+    }
+
+    .barril{
+        width: 50px;
+    }
+
+    #contatoContainer{
+        height: 100px;
+        max-width: 550px;
+    }
+
+    .contatoH1P p{
+        font-size: 16px;
+    }
+    
+    .contatoH1P h1{
+        font-size: 35px;
+    }
+
+    .contatoEmailFone p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 693px){
+
+    .atuacaoDiv{
+        top: 80px;
+        left: 70px;
+    }
+
+    .brasilImg{
+        width: 330px;
+    }
+
+    #atuacaoSection ,#contatoSection, #sobreSection , #servicosSection{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 693px){
+
+    .sobrePrimeiroP , .sobreSegundoP, .servicosPrimeiroP, .servicosSegundoP{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 599px){
+
+    .headerFlex{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: flex-end;
+        height: 250px;
+    }
+
+    ul{
+        height: 100%;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #logo02{
+        width: 30px;
+        display: block;
+    }
+
+    .importSection{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .gradienteDiv{
+        margin-bottom: 10px;
+    }
+
+    #atuacaoSection{
+        display: block;
+    }
+
+    .atuacaoDiv{
+        text-align: center;
+        width: 90%;
+        margin: 0 auto 30px;
+    }
+
+    .atuacaoDiv p{
+        text-align: center;
+    }
+
+    .atuacaoDiv, .brasilImageDiv{
+        position: static;
+    }
+
+    .horizontalLine{
+        height: 50px;
+    }
+
+    #contatoContainer{
+        height: 80px;
+        max-width: 400px;
+    }
+
+    .contatoH1P p{
+        font-size: 14px;
+    }
+    
+    .contatoH1P h1{
+        font-size: 30px;
+    }
+
+    .contatoEmailFone p{
+        font-size: 15px;
+    }
+
+    br{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 417px){
+
+    #contatoContainer{
+        height: 70px;
+        max-width: 350px;
+    }
+
+    .horizontalLine{
+        height: 40px;
+    }
+
+    .contatoH1P p{
+        font-size: 12px;
+    }
+    
+    .contatoH1P h1{
+        font-size: 26px;
+    }
+
+    .contatoEmailFone p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    header{
+        height: 94vh;
+    }
+}
+
+@media screen and (max-width: 411px){
+    header{
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    header{
+        height: 85vh;
+    }
+}
+
+@media screen and (max-width: 367px){
+
+    .sectionsH2Parag h2{
+        font-size: 23px;
+    }
+
+    #contatoContainer{
+        padding: 10px;
+        flex-direction: column;
+        height: 100%;
+        max-width: 190px;
+    }
+
+    .horizontalLine{
+        height: 1px;
+        width: 170px;
+    }
+
+    .contatoH1P p{
+        font-size: 12px;
+    }
+    
+    .contatoH1P h1{
+        font-size: 26px;
+    }
+
+    .contatoEmailFone p{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .brasilImg{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    header{
+        height: 93vh;
+    }
+}
+
+@media screen and (max-width: 320px){
+    header{
+        height: 101vh;
+    }
+}
+
+@media screen and (max-width: 280px){
+
+    .headerFlex{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: flex-end;
+        height: 190px;
+    }
+
+    header{
+        height: 70vh;
+    }
+}
+
+
