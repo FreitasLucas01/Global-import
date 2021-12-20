@@ -38,7 +38,7 @@
 
 <h2 id="projeto"> 💻 Projeto </h2>
 
-<p>Projeto criado com intuito de treinar criação de imagens HTML e CSS</p> 
+<p>Projeto criado com intuito de treinar criação de imagens HTML e CSS. Nunca utilizar este site de forma comercial ou com intuito financeiro.</p> 
 <br>
 <hr>
 <br>
